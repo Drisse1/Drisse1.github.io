@@ -1,0 +1,78 @@
+
+@media (max-width: 767px) { /* moile & tablet rules */
+    .visible-xs {display: block !important}
+
+    .hidden-xs {display: none !important}
+
+    .res-p {
+        font-size: 20px !important;
+        text-align: center
+    }
+}
+
+@media (min-width: 768px) { /* small screen rules */
+    .container {width: 750px}
+
+    .visible-sm {display: block !important}
+
+    .hidden-sm {display: none !important}
+}
+
+@media (min-width: 992px) { /* medium screen rules */
+    .container {width: 970px}
+
+    .visible-ms {display: block !important}
+
+    .hidden-ms {display: none !important}
+}
+
+@media (min-width: 1200px) { /* large screen rules */
+    .container {width: 1170px}
+
+    .visible-lg {display: block !important}
+
+    .hidden-lg {display: none !important}
+}
+
+/* start my framework */
+.container {
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text-center {text-align: center}
+.text-left {text-align: left}
+.text-right {text-align: right}
+
+.clearfix {clear: both}
+
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {display: none}
+
+.float-l {float: left}
+
+.float-r {float: right}
+
+.h1 {font-size: 2em} /* never ever use two 'h1' in your web site */
+
+.res-p {line-height: 1.8}
+
+.res-img {width: 100%}
+
+.circle-img {border-radius: 50%}
+
+.thumbnail-img {
+    padding: 3px;
+    background-color: #FFF;
+    border: 1px solid #CCC
+}
+
+.classic-list {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+/* end my framework */
